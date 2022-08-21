@@ -12,20 +12,25 @@ body, .wrapper, .content{
   justify-content: center;
 }
 body{
+  /* background image (wallpaperaccess.com) */
   padding: 0 10px;
   min-height: 100vh;
   background:url("files/bg.jpg")
   
 }
 .wrapper{
+/* wrapper created 440px width size will automaticallys maintained */
   width: 440px;
   padding: 30px 30px 38px;
-  background: #ffffff22;
+  /* wrappper box colour -- used as transparents*/
+  background: #fffefe22;
   border-radius: 10px;
   flex-direction: column;
+  /* wrapper box  box-shadow colour */
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 .wrapper img{
+  /* wrapper ke image */
   max-width: 103px;
 }
 .wrapper h1{
@@ -51,6 +56,7 @@ body{
   pointer-events: none;
 }
 .column select{
+  /* columns for HH MM AP/MP border & outline */
   width: 100%;
   height: 53px;
   border: none;
@@ -73,19 +79,23 @@ select::-webkit-scrollbar-thumb{
   border-right: 2px solid #ffffff;
 }
 .wrapper button{
+  /* warper padding colour and background of wrapper */
   width: 100%;
   border: none;
   outline: none;
+  /* Set alaram text colour */
   color: #fff;
   cursor: pointer;
   font-size: 20px;
   padding: 17px 0;
   margin-top: 20px;
   border-radius: 5px;
-  background: #4a98f728;
+  /* Set alaram box  background */
+  background: #4a98f715;
   transition: all 0.3s ease;
 }
 .wrapper button:hover{
+  /* hover at time of set alaram button */
   background: #2382f6;
 }
 
